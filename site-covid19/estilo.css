@@ -5,10 +5,10 @@ body{
 #cabecalho{
     border: darkorchid 1px solid;
     border-radius: 10px;
-    padding-left: 100px;
     margin-bottom: 30px;
     box-shadow: black 2px 2px 5px;
     justify-content: center;
+    text-align: center;
 }
 
 #conteudo{
@@ -37,4 +37,41 @@ a{
     display: flex;
     justify-content: center;
     text-shadow: violet 1px 1px 5px;
+}
+
+#noticias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.principaisnoticias{
+    border: plum 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 2px 2px 3px;
+}
+
+#imgvacina{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-block: 10px;
+}
+
+#imgitau{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-block: 10px;
+}
+
+#imghome{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-block: 10px;
+}
+
+h3{
+    text-align: center;
 }
