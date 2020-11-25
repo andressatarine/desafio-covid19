@@ -15,5 +15,15 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     padding: 2%;
-    
+}
+
+a{
+    color: blue;
+    text-decoration: unset;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
 }
